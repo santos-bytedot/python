@@ -1,0 +1,4 @@
+num1 = float(input("Valor inicial "))
+num2 = int (input("Valor do Desconto "))
+Desconto = num1 * num2/100
+print("Com o desconto o produto vai ficar  ",Desconto)
