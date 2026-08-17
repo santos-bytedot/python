@@ -1,0 +1,3 @@
+age = 23
+name = 'guilherme'
+print(f'meu nome é {name} e eu tenho {age} anos de idade.')
