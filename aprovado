@@ -1,0 +1,10 @@
+nome = input("Digite seu nome: ")
+nota1 = float(input("digite a primeira nota(de 0 a 10): "))
+nota2 = float(input("digite a segunda nota(de 0 a 10): "))
+nota3 = float(input("digite a terceira nota(de 0 a 10): "))
+media = (nota1 + nota2 + nota3) / 3
+print (f"A media das três notas é: {media}")
+aprovado = media >= 7
+print(f"aluno: {nome}")
+print(f"media: {media: .2f}")
+print(f"aprovado: {aprovado}")
