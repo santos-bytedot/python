@@ -1,0 +1,6 @@
+senha = input("qual é a senha: ")
+
+if senha == "senha123":
+    print ("acesso permitido")
+else:
+    print ("acesso negado")
